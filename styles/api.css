@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Mouse+Memoirs&family=Special+Elite&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20%;
+    background-color: plum;
+}
+
+.forma{
+    width: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nome-canto{
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#idpokemon{
+    width: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.fundo{
+    background-image: url(/fundo.jpg);
+    background-size: cover;
+    width: 90%;
+    margin-top: 80px;
+    display: flex;
+    margin-left: auto;
+    height: 200px;
+    margin-right: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 82%;
+    border: none;
+    height: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#ok{
+    background-color: white;
+    color: black;
+    border: none;
+    width: 15%;
+    height: 22px;
+}
+
+.search{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto ;
+    
+}
+
+#img-pokemon{
+    width: 70px;
+    margin-bottom: 10px;  
+}
+
+.botoes{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.seta{
+    width: 20px;
+}
+#passar{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+}
+
+#voltar{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+}

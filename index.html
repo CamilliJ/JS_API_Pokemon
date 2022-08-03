@@ -6,17 +6,31 @@
         API Pokemon
     </title>
     <link rel="stylesheet" href="/styles/api.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <main>
-        <div class="container">
-            <img src="" alt="Pokemon" id="img-pokemon">
-            <span id="nome-pokemon"></span>
-            <button id="voltar"> <- </button>
-            <button id="passar"> -> </button>
+    <main id="main">
+        <div class="card">
+            <div id="idpokemon"></div>
+            <div> <img src="Vector 1.png" alt="" class="forma"></div>
+            <span id="nome-pokemon" class="nome-canto"> </span>
+            <div class="fundo">
+                <img src="" alt="Pokemon" id="img-pokemon">
+            </div>
+            <div class="search">
+                <input type="text" id="input">
+                <button id="ok"> OK</button>
+            </div>
+
+            <div class="botoes">
+                <button id="voltar"> <img src="seta-esquerda.png" alt="" class="seta"> </button>
+                <button id="passar"> <img src="seta-direita.png" alt="" class="seta"> </button>
+            </div>
+            
         </div>
     </main>
+
 
     <script src="api.js"></script>
 </body>
