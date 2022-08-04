@@ -46,7 +46,7 @@ body{
 }
 
 .fundo{
-    background-image: url(fundo.jpg);
+    background-image: url("fundo.jpg");
     background-size: cover;
     width: 90%;
     margin-top: 80px;
